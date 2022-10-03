@@ -24,7 +24,7 @@ int main(){
     if (array[middle] < search)
       first = middle + 1;
     else if (array[middle] == search) {
-      printf("%d found at location %d.\n", search, middle+1);
+      printf("%d has been found at location %d.\n", search, middle+1);
       break;
     }
     else
