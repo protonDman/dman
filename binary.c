@@ -33,7 +33,7 @@ int main(){
     middle = (first + last)/2;
   }
   if (first > last)
-    printf("Not found! %d isn't present in the list.\n", search);
+    printf("Element you're looking for is Not found! %d isn't present in the list.\n", search);
   
   return 0;
 }
